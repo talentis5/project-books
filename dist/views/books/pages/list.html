@@ -1,0 +1,16 @@
+{% extends '../../layouts/layout.html' %}
+
+{% block title %}图书列表页{% endblock %}
+
+{% block head %}
+<!-- injectcss -->
+{% endblock %}
+
+{% block content %}
+    {% include "../../../components/banner/banner.html" %}
+    <h1>展示图书</h1>
+{% endblock %}
+
+{% block scripts %}
+<script src='/scripts/runtime.bundle.js'></script><script src='/scripts/books-list.bundle.js'></script>
+{% endblock %}
