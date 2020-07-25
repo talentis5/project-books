@@ -10,10 +10,10 @@ class BooksController extends Controller {
         // ctx.body = await ctx.render('list',{
         //     data
         // })
-        // ctx.body = await ctx.render('../../web/views/books/pages/list.html')
-        ctx.body = {
-            data: '这是图书列表'
-        }
+        ctx.body = await ctx.render('../../web/views/books/pages/list')
+        // ctx.body = {
+        //     data: '这是图书列表'
+        // }
     }
     async actionCreate(ctx){
         // const books = new Books();

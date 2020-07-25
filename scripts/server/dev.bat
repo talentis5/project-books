@@ -1,2 +1,2 @@
 
-cross-env NODE_ENV=development glup
+cross-env NODE_ENV=development gulp

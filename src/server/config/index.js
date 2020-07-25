@@ -5,6 +5,9 @@ let config = {
   viewDir: join(__dirname, '..', 'views'),
   staticDir: join(__dirname, '..', 'assets'),
 };
+if(false){
+  console.log('nicai')
+}
 if (process.env.NODE_ENV === 'development') {
   let localConfig = {
     port: 8081,

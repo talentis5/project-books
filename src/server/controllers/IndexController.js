@@ -4,12 +4,10 @@ class IndexController extends Controller {
         super();
     }
     async actionIndex(ctx, next) {
-        ctx.body = {
-            data: '这是后端的数据'
-        }
-        // ctx.body = await ctx.render('index', {
+        // ctx.body = {
         //     data: '这是后端的数据'
-        // })
+        // }
+        ctx.body = await ctx.render('../../web/views/index/pages/index.html');
     }
 }
 

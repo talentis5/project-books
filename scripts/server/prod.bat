@@ -1,1 +1,1 @@
-cross-env NODE_ENV=production glup
+cross-env NODE_ENV=production gulp
