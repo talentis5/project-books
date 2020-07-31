@@ -19,3 +19,15 @@ open 'E:\tc\新建文件夹 (3)\node\git\project-books\src\web\views\index\index
   syscall: 'open',
   path: 'E:\\tc\\新建文件夹 (3)\\node\\git\\project-books\\src\\web\\views\\index\\index.html'
 }
+[2020-07-25T17:15:48.978] [ERROR] cheese - [Error: ENOENT: no such file or directory, open 'E:\tc\新建文件夹 (3)\node\git\project-books\web\views\index\pages\index.html'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'E:\\tc\\新建文件夹 (3)\\node\\git\\project-books\\web\\views\\index\\pages\\index.html'
+}
+[2020-07-25T17:15:53.298] [ERROR] cheese - [Error: ENOENT: no such file or directory, open 'E:\tc\新建文件夹 (3)\node\git\project-books\web\views\index\pages\index.html'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'E:\\tc\\新建文件夹 (3)\\node\\git\\project-books\\web\\views\\index\\pages\\index.html'
+}
