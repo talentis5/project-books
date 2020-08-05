@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1],[function(n,i,o){"use strict";const s={init(){console.log("banner")}};i.a=s},function(n,i,o){"use strict";o.r(i),o(0).a.init()}],[[1,0]]]);
